@@ -1,3 +1,3 @@
 FROM nginx
 LABEL name=Ravi
-COPY ui-app /usr/share/nginx/html/
+COPY project-html-website /usr/share/nginx/html/
