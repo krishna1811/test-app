@@ -3,8 +3,6 @@ services:
   ravi-ui-app:
     image: raviapp:v011
     build: 
-      context: .
-      dockerfile: new.dockerfile
     container_name: ravi-c1
     ports:
     - 1225:80
